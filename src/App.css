@@ -1,0 +1,117 @@
+body {
+  width: 100vw;
+  overflow: hidden;
+}
+/* navbar */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.4rem !important;
+}
+
+/* Explore page */
+.page-title {
+  padding: 10px;
+}
+
+.explore-card {
+  height: 81vh;
+  min-width: 400px !important;
+  width: 25vw;
+  margin: auto;
+}
+
+.match-btn {
+  width: 100%;
+}
+
+.fa-space-shuttle {
+  padding-left: 10px;
+}
+
+.badge {
+  font-size: 1.2rem !important;
+  margin: 0px 5px;
+}
+
+.categories-holder {
+  display: flex;
+  overflow: scroll;
+  cursor: pointer;
+}
+
+.categories-holder::-webkit-scrollbar {
+  display: none;
+}
+
+.swiping-card {
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.settings {
+  float: right;
+  margin-right: 20px;
+}
+
+.modal-header .close {
+  box-sizing: content-box;
+  font-size: 2rem;
+  color: #000;
+  border: 0;
+  border-radius: 0.15rem;
+  opacity: 0.5;
+  background-color: transparent;
+}
+
+.explore-card {
+  overflow-y: scroll;
+}
+
+.explore-card::-webkit-scrollbar {
+  display: none;
+}
+
+.match-card {
+  display: flex;
+}
+
+.match-card .details {
+  margin-left: 25px;
+}
+
+.match-card .btn-close {
+  background: #ea39b8
+    url(https://www.mcicon.com/wp-content/uploads/2021/05/Call-06.jpg)
+    center/2em auto no-repeat;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.profile-pic {
+  margin: 20px auto;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.profile-card {
+  padding: 10px;
+}
+
+.sexuality-btn {
+  margin: 15px;
+  width: 90% !important;
+}
+
+.sexuality-holder img {
+  height: 100px;
+  margin: 10px 5px;
+}
+
+.home-holder {
+  display: flex;
+}
